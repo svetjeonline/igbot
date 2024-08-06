@@ -1,88 +1,86 @@
 # Instagram Bot 🤖📸
 
-![Instagram Bot](igbot.png)
+<img src="igbot.png" alt="Instagram Bot" width="200">
 
-Tento projekt je Instagram Bot postavený pomocí PyQt5 a Selenium, který umožňuje automatizaci různých akcí na Instagramu, jako je lajkování, sledování, komentování a nahrávání fotek.
+This project is an Instagram Bot built using PyQt5 and Selenium, enabling automation of various actions on Instagram such as liking, following, commenting, and uploading photos.
 
-## Funkce
-- Automatické lajkování příspěvků
-- Automatické sledování uživatelů
-- Automatické komentování příspěvků
-- Automatické nahrávání fotek
-- Pokročilé možnosti nastavení pro filtrování uživatelů a nastavení zpoždění mezi akcemi
+## Features
+- Automatic liking of posts
+- Automatic following of users
+- Automatic commenting on posts
+- Automatic photo uploading
+- Advanced settings for user filtering and delay configuration between actions
 
-## Požadavky
+## Requirements
 - Python 3.x
 - PyQt5
 - Selenium
 - Webdriver Manager
 
-## Instalace
-Nejprve zkontrolujte, zda máte nainstalované všechny požadované balíčky. Pokud ne, skript `install.py` je automaticky nainstaluje:
+## Installation
+First, ensure you have all the required packages installed. If not, the `install.py` script will automatically install them:
 
 ```python
 import sys
 import subprocess
 
-# Funkce pro kontrolu nainstalovaných balíčků
+# Function to check installed packages
 def check_and_install(package):
     try:
         __import__(package)
     except ImportError:
         subprocess.check_call([sys.executable, "install.py"])
 
-# Seznam balíčků ke kontrole
+# List of packages to check
 required_packages = [
     "PyQt5",
     "selenium",
     "webdriver-manager"
 ]
 
-# Kontrola a instalace balíčků
+# Check and install packages
 for package in required_packages:
     check_and_install(package)
 ```
 
-## Použití
-1. Spusťte aplikaci:
+## Usage
+1. Launch the application:
 
     ```bash
     python main.py
     ```
 
-2. Vyplňte požadované údaje v uživatelském rozhraní:
-    - Uživatelské jméno a heslo
-    - Možnosti automatizace (lajkování, sledování, komentování, nahrávání fotek)
-    - Počet akcí
-    - Pokročilé možnosti nastavení
+2. Fill in the required information in the user interface:
+    - Username and password
+    - Automation options (liking, following, commenting, uploading photos)
+    - Number of actions
+    - Advanced settings
 
-3. Klikněte na tlačítko **Start** pro spuštění bota.
+3. Click the **Start** button to run the bot.
 
-## Uživatelské Rozhraní
-![User Interface](https://example.com/ui_screenshot.png)
+## User Interface
+<img src="igg.png" alt="User Interface" width="200">
 
-### Základní Nastavení
-- **Uživatelské jméno**: Vložte své uživatelské jméno na Instagramu.
-- **Heslo**: Vložte své heslo na Instagramu.
-- **Automatické lajkování**: Zaškrtněte, pokud chcete automaticky lajkovat příspěvky.
-- **Automatické sledování**: Zaškrtněte, pokud chcete automaticky sledovat uživatele.
-- **Automatické komentování**: Zaškrtněte, pokud chcete automaticky komentovat příspěvky.
-- **Automatické nahrávání fotek**: Zaškrtněte, pokud chcete automaticky nahrávat fotky.
-- **Počet akcí**: Nastavte počet akcí, které má bot provést.
+### Basic Settings
+- **Username**: Enter your Instagram username.
+- **Password**: Enter your Instagram password.
+- **Automatic Liking**: Check if you want to automatically like posts.
+- **Automatic Following**: Check if you want to automatically follow users.
+- **Automatic Commenting**: Check if you want to automatically comment on posts.
+- **Automatic Photo Uploading**: Check if you want to automatically upload photos.
+- **Number of Actions**: Set the number of actions the bot should perform.
 
-### Pokročilé Nastavení
-- **Zpoždění mezi akcemi**: Nastavte zpoždění mezi jednotlivými akcemi (lajky, unfollow, sledování, atd.).
-- **Filtrovat uživatele**: Filtrování uživatelů na základě různých kritérií (počet followerů, following, poměr followers/following, atd.).
-- **Whitelist/Blacklist soubor**: Nastavte soubory pro whitelist a blacklist uživatelů.
-- **Stop slova**: Nastavte stop slova, která bot nebude používat v komentářích.
+### Advanced Settings
+- **Delay between Actions**: Set the delay between individual actions (likes, unfollows, follows, etc.).
+- **Filter Users**: Filter users based on various criteria (number of followers, following, followers/following ratio, etc.).
+- **Whitelist/Blacklist File**: Set files for whitelisting and blacklisting users.
+- **Stop Words**: Set stop words that the bot will not use in comments.
 
-## Příspěvek chyb
-Pokud narazíte na chybu, prosím otevřete issue na GitHubu a připojte detailní popis problému včetně chybové zprávy.
+## Reporting Issues
+If you encounter a bug, please open an issue on GitHub and include a detailed description of the problem along with the error message.
 
-## Přispívání
-Přispívání do projektu je vítáno! Prosím otevřete pull request s vašimi změnami a popište, co a proč jste změnili.
+## Contributing
+Contributions to the project are welcome! Please open a pull request with your changes and describe what and why you have changed.
 
-## Licence
-Tento projekt je licencován pod MIT licencí. Podrobnosti naleznete v souboru LICENSE.
-
-  ────── 𝓼𝓿𝓮𝓽𝓳𝓮𝓸𝓷𝓵𝓲𝓷𝓮 ──────     
+## License
+  ────── 𝓼𝓿𝓮𝓽𝓳𝓮𝓸𝓷𝓵𝓲𝓷𝓮 ──────
