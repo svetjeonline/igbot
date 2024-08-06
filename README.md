@@ -85,3 +85,4 @@ Přispívání do projektu je vítáno! Prosím otevřete pull request s vašimi
 ## Licence
 Tento projekt je licencován pod MIT licencí. Podrobnosti naleznete v souboru LICENSE.
 
+  ────── 𝓼𝓿𝓮𝓽𝓳𝓮𝓸𝓷𝓵𝓲𝓷𝓮 ──────     
