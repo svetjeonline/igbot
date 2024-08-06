@@ -1,23 +1,25 @@
 # Instagram Bot 🤖📸
 
-<img src="igbot.png" alt="Instagram Bot" width="200">
+<p align="center">
+  <img src="igbot.png" alt="Instagram Bot" width="200">
+</p>
 
 This project is an Instagram Bot built using PyQt5 and Selenium, enabling automation of various actions on Instagram such as liking, following, commenting, and uploading photos.
 
-## Features
+## 🌟 Features
 - Automatic liking of posts
 - Automatic following of users
 - Automatic commenting on posts
 - Automatic photo uploading
 - Advanced settings for user filtering and delay configuration between actions
 
-## Requirements
+## 📋 Requirements
 - Python 3.x
 - PyQt5
 - Selenium
 - Webdriver Manager
 
-## Installation
+## 🛠️ Installation
 First, ensure you have all the required packages installed. If not, the `install.py` script will automatically install them:
 
 ```python
@@ -43,7 +45,7 @@ for package in required_packages:
     check_and_install(package)
 ```
 
-## Usage
+## 🚀 Usage
 1. Launch the application:
 
     ```bash
@@ -58,8 +60,10 @@ for package in required_packages:
 
 3. Click the **Start** button to run the bot.
 
-## User Interface
-<img src="igg.png" alt="User Interface" width="200">
+## 💻 User Interface
+<p align="center">
+  <img src="igg.png" alt="User Interface" width="200">
+</p>
 
 ### Basic Settings
 - **Username**: Enter your Instagram username.
@@ -76,11 +80,12 @@ for package in required_packages:
 - **Whitelist/Blacklist File**: Set files for whitelisting and blacklisting users.
 - **Stop Words**: Set stop words that the bot will not use in comments.
 
-## Reporting Issues
+## 🐞 Reporting Issues
 If you encounter a bug, please open an issue on GitHub and include a detailed description of the problem along with the error message.
 
-## Contributing
+## 🤝 Contributing
 Contributions to the project are welcome! Please open a pull request with your changes and describe what and why you have changed.
 
-## License
-  ────── 𝓼𝓿𝓮𝓽𝓳𝓮𝓸𝓷𝓵𝓲𝓷𝓮 ──────
+## 📄 License
+
+<p align="center">────── 𝓼𝓿𝓮𝓽𝓳𝓮𝓸𝓷𝓵𝓲𝓷𝓮 ──────</p>
