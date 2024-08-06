@@ -1,4 +1,4 @@
-# IGBOT-Instagram Bot 🤖📸
+# Igbot-Instagram Bot 🤖📸
 
 <p align="center">
   <img src="igbot.png" alt="Instagram Bot" width="200">
